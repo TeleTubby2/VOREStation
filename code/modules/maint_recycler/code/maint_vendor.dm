@@ -137,9 +137,9 @@
 		req_one_access = attempted_entry.required_access
 		if(!allowed(user))
 			purchase_failed(user, "Access Denied")
-			req_one_access = list()
+			req_one_access.Cut()
 			return FALSE
-		req_one_access = list()
+		req_one_access.Cut()
 
 	return TRUE
 
