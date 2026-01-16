@@ -11,7 +11,7 @@
 	if(direct)
 		return {"
 Sets the active network connection for remote communication.
-Usage: >[alias_used] NETWORKNAME
+Usage: >target [alias_used] NETWORKNAME
 - The specified network becomes the active target for broadcasted commands.
 - Requires an established physical connection to the network.
 "}
